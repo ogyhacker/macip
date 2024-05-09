@@ -62,3 +62,84 @@ You can launch the tool by using the file.
 ## Example Usage
 
 macip's Main Menu:
+
+
+```bash
+$ ./macip.sh
+===============================================================================
+                            macip | [Version]: 1.0.0
+===============================================================================
+                             [Twitter]: @ogyhacker
+===============================================================================
+
+
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 00.00.00.0 netmask 255.255.252.0  broadcast 100.0.0.0
+        inet6 fg80::dgh6:9jhe:3680:f582e  prefixlen 64  scopeid 0x20<link>
+        ether 15:25:15:d9:87:c5  txqueuelen 1000  (Ethernet)
+        RX packets 2188298  bytes 2588045471 (2.4 GiB)
+        RX errors 0  dropped 4231  overruns 0  frame 0
+        TX packets 333498  bytes 49251682 (46.9 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+enter your mac address here
+00:00:00:00:00:00
+52:58:69:58:54:45
+
+```
+
+
+
+## SUCCESSFUL MACADDRESS CHANGED
+
+```bash
+Current MAC:   52:58:69:58:54:45 (unknown)
+Permanent MAC: 50:28:4a:66:4a:22 (unknown)
+New MAC:       50:58:69:f7:8d:76 (unknown)
+Current MAC:   50:58:69:f7:8d:76 (unknown)
+Permanent MAC: 50:28:4a:66:4a:22 (unknown)
+New MAC:       50:58:69:b8:10:05 (unknown)
+Current MAC:   50:58:69:b8:10:05 (unknown)
+Permanent MAC: 50:28:4a:66:4a:22 (unknown)
+New MAC:       50:58:69:77:a6:67 (unknown)
+Current MAC:   50:58:69:77:a6:67 (unknown)
+Permanent MAC: 50:28:4a:66:4a:22 (unknown)
+New MAC:       50:58:69:35:9e:58 (unknown)
+Current MAC:   50:58:69:35:9e:58 (unknown)
+Permanent MAC: 50:28:4a:66:4a:22 (unknown)
+New MAC:       50:58:69:d0:e9:27 (unknown)
+
+
+wlan0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 00.00.0.0  netmask 255.255.252.0  broadcast 10.30.3.255
+        inet6 fg80::dgh6:9jhe:3680:f582e  prefixlen 64  scopeid 0x20<link>
+        ether 15:25:15:d9:87:c5  txqueuelen 1000  (Ethernet)
+        RX packets 2188298  bytes 2588045471 (2.4 GiB)
+        RX errors 0  dropped 4231  overruns 0  frame 0
+        TX packets 333498  bytes 49251682 (46.9 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+macaddress has been changed successfully
+
+```
+
+## IP ADDRESS CHANGE
+
+```bash
+enter your ip here 
+000.00.0.0
+198.25.36.22
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 198.25.36.22  netmask 255.255.255.0  broadcast 10.30.3.255
+        inet6 fg80::dgh6:9jhe:3680:f582e  prefixlen 64  scopeid 0x20<link>
+        ether 15:25:15:d9:87:c5  txqueuelen 1000  (Ethernet)
+        RX packets 2194740  bytes 2596372978 (2.4 GiB)
+        RX errors 0  dropped 4244  overruns 0  frame 0
+        TX packets 334499  bytes 49408641 (47.1 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+macaddress and the Ip address has been changed successfully
+
+```
